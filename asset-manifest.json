@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Yousurya/API-s/static/css/main.506cc7d8.css",
-    "main.js": "/Yousurya/API-s/static/js/main.e895421c.js",
-    "static/js/787.1e732ca0.chunk.js": "/Yousurya/API-s/static/js/787.1e732ca0.chunk.js",
-    "index.html": "/Yousurya/API-s/index.html",
-    "main.506cc7d8.css.map": "/Yousurya/API-s/static/css/main.506cc7d8.css.map",
-    "main.e895421c.js.map": "/Yousurya/API-s/static/js/main.e895421c.js.map",
-    "787.1e732ca0.chunk.js.map": "/Yousurya/API-s/static/js/787.1e732ca0.chunk.js.map"
+    "main.css": "/API-s/static/css/main.506cc7d8.css",
+    "main.js": "/API-s/static/js/main.a6ed2875.js",
+    "static/js/787.1e732ca0.chunk.js": "/API-s/static/js/787.1e732ca0.chunk.js",
+    "index.html": "/API-s/index.html",
+    "main.506cc7d8.css.map": "/API-s/static/css/main.506cc7d8.css.map",
+    "main.a6ed2875.js.map": "/API-s/static/js/main.a6ed2875.js.map",
+    "787.1e732ca0.chunk.js.map": "/API-s/static/js/787.1e732ca0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.506cc7d8.css",
-    "static/js/main.e895421c.js"
+    "static/js/main.a6ed2875.js"
   ]
 }
