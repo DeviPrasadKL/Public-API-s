@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Yousurya/API-s/static/css/main.506cc7d8.css",
+    "main.js": "/Yousurya/API-s/static/js/main.e895421c.js",
+    "static/js/787.1e732ca0.chunk.js": "/Yousurya/API-s/static/js/787.1e732ca0.chunk.js",
+    "index.html": "/Yousurya/API-s/index.html",
+    "main.506cc7d8.css.map": "/Yousurya/API-s/static/css/main.506cc7d8.css.map",
+    "main.e895421c.js.map": "/Yousurya/API-s/static/js/main.e895421c.js.map",
+    "787.1e732ca0.chunk.js.map": "/Yousurya/API-s/static/js/787.1e732ca0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.506cc7d8.css",
+    "static/js/main.e895421c.js"
+  ]
+}
