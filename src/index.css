@@ -1,4 +1,4 @@
-html{
+html {
   font-size: 76%;
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
@@ -7,10 +7,10 @@ html::-webkit-scrollbar {
   width: 1rem;
 }
 html::-webkit-scrollbar-track {
-background: whitesmoke;
+  background: whitesmoke;
 }
-html::-webkit-scrollbar-THUMB {
-background: blue;
+html::-webkit-scrollbar-thumb {
+  background: blue;
 }
 
 .Home {
@@ -89,8 +89,8 @@ a {
 }
 
 /* Responsiveness */
-@media (max-width:769px){
-  html{
+@media (max-width: 769px) {
+  html {
     font-size: 60%;
   }
   .Home {
@@ -100,15 +100,15 @@ a {
     padding: 2rem 1rem;
   }
 }
-@media (max-width:426px){
-  .NavBar{
+@media (max-width: 426px) {
+  .NavBar {
     font-size: 1.5rem;
   }
   .Home {
     display: block;
     padding: 1.5rem 6rem;
   }
-  .card{
+  .card {
     padding: 2rem 0.4rem;
     margin-bottom: 1rem;
   }
@@ -118,7 +118,7 @@ a {
     gap: 0.2rem;
     padding-left: 0.8rem;
   }
-  #pincodeapi{
+  #pincodeapi {
     font-size: 2.2rem;
   }
 }
