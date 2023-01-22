@@ -1,78 +1,124 @@
-.Home{
+html{
+  font-size: 76%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+background: whitesmoke;
+}
+html::-webkit-scrollbar-THUMB {
+background: blue;
+}
+
+.Home {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+  background-color: hsl(240, 96%, 79%);
+  padding: 1rem 2rem;
+}
+#para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  height: 40px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.NavBar {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  font-size: 1.6rem;
+}
+#pincodeapi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(118, 118, 239);
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 30rem;
+  overflow-x: scroll;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px black;
+}
+.card label {
+  font-size: large;
+  font-style: italic;
+  font-size: 2rem;
+}
+.card h2 {
+  text-decoration: underline;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.cardsApi {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 0.2rem;
+  background-color: rgb(213, 255, 173);
+  margin-bottom: 15px;
+  padding-left: 2rem;
+}
+.cardsApi h2 {
+  text-decoration: underline;
+}
+.cardsApi label {
+  font-size: 2rem;
+}
+
+/* Responsiveness */
+@media (max-width:769px){
+  html{
+    font-size: 60%;
+  }
+  .Home {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color:hsl(240, 79%, 70%);
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
 }
-#para{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    font-size: 30px;
-    font-weight: 600;
-}
-@media (max-width:600px) {
-    .Home{
-        display: block;
-    }
-    .card{
-        display: block;
-        height: 400px;
-        width: 300px;
-        margin: auto;
-    }
-}
-.NavBar{
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-}
-#pincodeapi{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:rgb(118, 118, 239);
-    color: white;
-    font-size: 40px;
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-}
-a{
-    color: black;
-    text-decoration: none;
-}
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px 5px;
-    height: 400px;
-    width: 500px;
-    overflow-x: scroll;
-}
-.card label{
-    font-size: large;
-    font-style: italic;
-    font-size: 25px;
-}
-.card h2{
-    text-decoration: underline;
-}
-.loader{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-}
-.cardsApi{
+@media (max-width:426px){
+  .NavBar{
+    font-size: 1.5rem;
+  }
+  .Home {
+    display: block;
+    padding: 1.5rem 6rem;
+  }
+  .card{
+    padding: 2rem 0.4rem;
+    margin-bottom: 1rem;
+  }
+  .cardsApi {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    background-color: rgb(213, 255, 173);
-    margin-bottom: 15px;
-}
-.cardsApi h2{
-    text-decoration: underline;
-}
-.cardsApi label{
-    font-size: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 0.2rem;
+    padding-left: 0.8rem;
+  }
+  #pincodeapi{
+    font-size: 2.2rem;
+  }
 }

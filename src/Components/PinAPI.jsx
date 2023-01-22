@@ -22,7 +22,6 @@ export default function PinAPI() {
             .then((apiData) => { setdata(apiData); setpending(false) })
             .catch((err) => { setError(err.message) })
     }, [pending,searchkey])
-console.log(data);
 
 
     return (

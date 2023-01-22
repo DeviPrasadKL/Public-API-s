@@ -30,7 +30,7 @@ export default function Home() {
                 {
                     data.map((value, index) => {
                         return (
-                            <div className=" card">
+                            <div className="card">
                                 <h2>Name:- </h2><label>{data[index].API}</label>
                                 <h2>Description:- </h2><label >{data[index].Description}</label>
                                 <h2>Authentication:- </h2><label>{data[index].Auth}</label>
