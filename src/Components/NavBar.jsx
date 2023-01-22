@@ -21,8 +21,8 @@ function NavBar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link >
+            <Nav.Link href="/Public-API-s/">Home</Nav.Link>
+            <Nav.Link  href="/Public-API-s/">
               Link
             </Nav.Link>
           </Nav>
