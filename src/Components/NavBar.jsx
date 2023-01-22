@@ -13,7 +13,7 @@ function NavBar() {
     <div className="NavBar">
       <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Public Free API's</Navbar.Brand>
+        <Navbar.Brand href="/Public-API-s/">Public Free API's</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
