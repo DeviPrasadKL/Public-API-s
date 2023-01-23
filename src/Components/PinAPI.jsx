@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import Loader from './Loader';
 
 export default function PinAPI() {
     let { searchkey } = useParams();
@@ -28,7 +27,7 @@ export default function PinAPI() {
         <>
             {/* {!data && <h1>Data Not Found</h1>} */}
             {error && <h1>{error}</h1>}
-            {pending && <div className="loader"><Loader /> </div>}
+            {pending && <div className="loader"> </div>}
             {data && <div className="pinApi my-3">
                 <h2 className="pinOut">Search Results:- for Pin code {searchkey}</h2>
                 <p>{data[0].Message}</p>

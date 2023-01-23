@@ -1,6 +1,5 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import Loader from './Loader';
 
 export default function Home() {
 
@@ -24,7 +23,7 @@ export default function Home() {
     return (
         <>
             {error && <h1>{error}</h1>}
-            {pending && <div className="loader"><Loader/> </div>}
+            {pending && <div className="loader"> </div>}
             {data && <p id="para">Total API's are -- {data.length}</p>}
             {data && <div className="Home">
                 {

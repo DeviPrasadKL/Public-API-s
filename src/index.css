@@ -67,12 +67,54 @@ a {
 .card h2 {
   text-decoration: underline;
 }
+/* Loader */
 .loader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-}
+  margin: 15% auto;
+  --clr: rgb(97, 97, 245);
+  /* color of spining  */
+  width: 80px;
+  height: 80px;
+  position: relative;
+ }
+ 
+ .loader:before, .loader:after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 10px solid transparent;
+  border-top-color: var(--clr);
+ }
+ 
+ .loader:before {
+  z-index: 100;
+  animation: spin 1s infinite;
+ }
+ 
+ .loader:after {
+  border: 10px solid #ccc;
+ }
+ 
+ @keyframes spin {
+  0% {
+   -webkit-transform: rotate(0deg);
+   -ms-transform: rotate(0deg);
+   -o-transform: rotate(0deg);
+   transform: rotate(0deg);
+  }
+ 
+  100% {
+   -webkit-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+   transform: rotate(360deg);
+  }
+ }
+ 
+
 .cardsApi {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
